@@ -1,10 +1,3 @@
-CCS 2026 Anonymous Submission Artifacts
-======================================
-
-This repository contains the data and analysis artifacts for an anonymous CCS 2026 submission.
-It includes two plotting notebooks, the datasets, and derived outputs used for the figures and
-tables referenced in the submission.
-
 Manuscript title: C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage
 
 Repository Contents
