@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,F1-c interface,"The primary candidate for root cause was f1_c_packet_loss_dl_percentage due to its significantly lower anomaly score. Following the Metric Severity Prioritization heuristic, 'hard errors' like packet loss were prioritized over latency or volumetric anomalies. The failure originated on the F1-c control plane, which logically precedes the degradation of the F1-u user plane and impacts on E2 and A1 interfaces.","1. Inspect physical and virtual links between O-CU and O-DU for the F1-c interface.
+2. Check for MTU mismatches or buffer overflows on F1-c interface controllers.
+3. Validate the health of the O-CU's control plane processing unit to ensure packets are not being dropped during transmission to the O-DU."

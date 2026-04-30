@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Latency,A1 interface,"The report indicates a root cause of severe latency degradation on the A1 interface (Downlink), which propagated to other interfaces (E2, F1-c, F1-u) and components (Non-RT RIC, Near-RT RIC, O-CU, O-DU).",1. Inspect the network link between Non-RT RIC and Near-RT RIC for congestion or physical layer errors; 2. Verify the health and resource utilization of the Non-RT RIC service; 3. Restart the A1 signaling service.

@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,A1 interface,"The high packet loss on the A1 interface prevents the Non-RT RIC from delivering necessary policies to the Near-RT RIC, which then propagates the failure downstream to the E2 and F1 interfaces, affecting the O-CU and O-DU.","1. Perform a physical and logical layer audit of the A1 interface link between the Non-RT RIC and Near-RT RIC.
+2. Investigate potential network congestion, faulty cabling, or misconfigured firewall rules on the A1 path.
+3. Verify the health of the Non-RT RIC egress and Near-RT RIC ingress ports."

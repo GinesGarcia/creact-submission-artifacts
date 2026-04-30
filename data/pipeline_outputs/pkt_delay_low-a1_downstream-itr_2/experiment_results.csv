@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,312.0,,True,Network Latency,A1 interface,"The clustering of top-ranked anomalies on the A1 interface, which is the highest level of the control hierarchy, indicates it as the origin of the failure. Latency on A1 propagates downward to the Near-RT RIC, E2, and F1 interfaces.","Perform a network trace on the A1 interface, validate health/resource utilization of Non-RT RIC and Near-RT RIC endpoints, and inspect the transport layer between them."

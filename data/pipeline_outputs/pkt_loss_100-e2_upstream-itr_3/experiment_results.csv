@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,E2 interface,High packet loss on the E2 interface has cascaded into degraded throughput and increased latency across the same interface.,"1. Inspect the physical and virtual links of the E2 interface for congestion or hardware failure.
+2. Check the E2 Agent (in the CU/DU) and E2 termination point (in the RIC) for synchronization errors or software crashes.
+3. Verify the configuration of the transport network (TN) facilitating the E2 traffic."

@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,F1-u interface,"The root cause ranked list identified f1_u_packet_loss_dl_percentage as the most probable root cause. Following the heuristic of prioritizing 'hard errors' like packet loss over volumetric symptoms like throughput and latency, the F1-u interface was identified as the primary origin of the failure. Anomalies on F1-c, E2, and A1 interfaces were treated as secondary effects resulting from the degraded user plane performance between the O-CU and O-DU.","1. Inspect the transport network between the O-CU and O-DU for physical layer issues or congestion.
+2. Verify the MTU settings and buffer configurations on the F1-u interface to prevent packet drops.
+3. Check for any faulty line cards or interface modules in the O-CU/O-DU hardware."

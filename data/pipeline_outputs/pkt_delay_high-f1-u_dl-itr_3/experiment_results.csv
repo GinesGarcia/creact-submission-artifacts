@@ -1,0 +1,5 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Latency,F1-u interface,"High concentration of anomalies on F1-u interface, specifically severe downlink latency and packet loss. Root failure point identified as O-DU due to its connection to both F1-u and E2 interfaces.","1. Perform immediate health check on O-DU hardware (CPU, Memory, NICs).
+2. Inspect O-DU logs for kernel panics, driver crashes, or resource exhaustion.
+3. Validate physical and logical connectivity of F1-u and E2 interfaces on the O-DU side.
+4. Restart O-DU software stack if hardware health is confirmed to be nominal."

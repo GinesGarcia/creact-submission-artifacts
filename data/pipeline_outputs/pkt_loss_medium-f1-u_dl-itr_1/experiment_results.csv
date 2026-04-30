@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,F1-u interface,"No specific failure report provided. The input text is a prompt from an RCA Agent requesting data for analysis, not a failure report itself.","Provide the system logs, alarm lists, or anomalous metrics to the Agent for actual analysis."

@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Latency,A1 interface,"The failure originates in the Non-RT RIC and cascades through the A1 interface, leading to malfunctions in the Near-RT RIC, O-CU, and O-DU. The A1 interface is the first point of manifestation, and the A1 interface metrics show degradation before the CU/DU, confirming it as the critical conduit of the failure.","Inspect Non-RT RIC Policy Manager, Validate A1 Interface Health, Restart Non-RT RIC Services"

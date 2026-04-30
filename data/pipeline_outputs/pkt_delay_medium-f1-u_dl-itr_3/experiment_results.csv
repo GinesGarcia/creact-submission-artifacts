@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,F1-u interface,"A degradation in the F1-u interface led to significant packet loss, causing a drop in throughput and increase in latency.",1. Check the physical and logical health of the transport link between the CU and DU. 2. Inspect for congestion or errors on the switches/routers facilitating the F1-u traffic. 3. Verify the configuration of the transport network for any recent changes that may have introduced packet drops.

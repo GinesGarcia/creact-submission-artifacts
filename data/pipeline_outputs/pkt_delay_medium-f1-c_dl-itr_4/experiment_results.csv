@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,F1-c interface,"High latency on the F1-c interface (connecting the O-CU and O-DU) is the primary driver, causing subsequent degradation in the F1-u user plane and reports via E2 and A1 interfaces.",Inspect the F1-c interface transport layer for congestion or hardware faults; Validate O-CU and O-DU CPU/Memory utilization; Reset the F1-c signaling connection.

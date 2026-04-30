@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,E2 interface,High packet loss on the E2 uplink path (O-DU to Near-RT RIC) causing a ripple effect on the other interfaces (F1-u and A1) and the rest of the network components (O-CU and Near-RT RIC).,Inspect the E2 interface configuration and the physical/virtual link between the O-DU and the Near-RT RIC for packet drops or congestion. Check for any misconfigurations in the E2AP signaling or transport layer (SCTP) issues.

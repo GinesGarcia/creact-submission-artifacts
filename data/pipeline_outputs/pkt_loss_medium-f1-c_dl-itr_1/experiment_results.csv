@@ -1,0 +1,5 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,F1-c interface,"The analysis identifies f1_c_packet_loss_dl_percentage as the primary root cause. According to the Metric Severity Prioritization heuristic, hard errors like packet loss on the control plane (F1-c) take precedence over performance symptoms on other interfaces. A failure in the F1-c interface logically precedes and causes subsequent degradation in the user plane (F1-u) and management planes (E2 and A1).","1. Inspect the physical and logical link between the O-CU and O-DU to identify the source of packet loss.
+2. Verify the configuration and stability of the F1-c SCTP associations.
+3. Check for congestion or faulty network equipment (switches/routers) on the F1-c transport path.
+4. Restart the F1-c signaling process on the O-DU and O-CU if the link remains unstable."

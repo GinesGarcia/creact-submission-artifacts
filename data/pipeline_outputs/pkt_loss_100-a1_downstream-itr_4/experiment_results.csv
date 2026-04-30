@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,309.0,,True,Network Packet Loss,A1 interface,"Audit Non-RT RIC to Near-RT RIC link, check hardware/congestion, validate MTU/timeout configurations.","High packet loss on A1 interface (Downlink) causing Near-RT RIC policy corruption, leading to system-wide degradation of radio resource management."

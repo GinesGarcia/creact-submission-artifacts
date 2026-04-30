@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,F1-u interface,"The analysis prioritizes 'f1_u_packet_loss_dl_percentage' as the primary root cause over throughput drops, as packet loss typically causes throughput degradation. High anomaly scores for F1-u metrics compared to noise in A1/E2 interfaces indicate the failure originated in the user plane, with effects spreading to the control plane and RICs via telemetry updates.","1. Physical Layer Audit: Inspect transport network and physical cabling between O-CU and O-DU.
+2. Traffic Analysis: Check for congestion or policing/shaping errors on F1-u user-plane path.
+3. Interface Configuration: Verify MTU settings and VLAN configurations on F1-u interface to prevent packets from being dropped due to size or tagging mismatches."

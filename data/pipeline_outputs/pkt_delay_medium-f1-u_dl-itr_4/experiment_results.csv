@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,309.0,,True,Network Packet Loss,F1-u interface,"Anomalies on the F1-u interface are the root cause, as they propagate to F1-c, E2, and A1. Packet loss was prioritized as a 'hard error' over latency and throughput fluctuations.","Perform a deep-dive audit of the F1-u transport network, checking for physical layer faults (cable/SFP issues), transport network congestion, or MTU mismUatches between the O-CU and O-DU."

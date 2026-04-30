@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,311.0,,True,Network Packet Loss,F1-u interface,"{!}n觕t觕r觕e觕-RT RIC, Non-RT RIC, O-CU, O-DU, A1, E2, F1-c, F1-u, a1_latency_p90_dl_ms, a1_latency_mean_dl_ms, f1_u_latency_mean_ul_ms, a1_latency_mean_ul_ms, a1_latency_p90_ul_ms}],","{!}n觕t觕r觕e觕-RT RIC, Non-RT RIC, O-CU, O-DU, A1, E2, F1-c, F1-u, a1_latency_p90_dl_ms, a1_latency_mean_dl_ms, f1_u_latency_mean_ul_ms, a1_latency_mean_ul_ms, a1_latency_p90_ul_ms}],"

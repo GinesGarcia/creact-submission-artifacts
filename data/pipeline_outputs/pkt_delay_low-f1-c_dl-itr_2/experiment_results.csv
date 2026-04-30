@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,F1-u interface,"The telemetry data indicates that f1_packet_loss is significantly elevated, while a1_packet_loss and f1_latency are normal, isolating the issue to the transport network between the CU and DU.","Check physical layer components (SFP, cabling) and verify transport switch configurations (QoS mapping, MTU mismatch)."

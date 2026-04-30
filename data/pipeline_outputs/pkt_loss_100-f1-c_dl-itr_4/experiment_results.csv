@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,311.0,,True,Network Packet Loss,F1-c interface,"Severe packet loss on the downlink of the F1-c interface led to control plane instability between O-CU and O-DU, which subsequently propagated upwards to E2 and A1 interfaces.",1. Physical Layer Check: Inspect transport network for cable faults or hardware failures. 2. Interface Configuration: Verify F1-c protocol and MTU settings. 3. O-CU Resource Audit: Check transmit buffers and CPU utilization.

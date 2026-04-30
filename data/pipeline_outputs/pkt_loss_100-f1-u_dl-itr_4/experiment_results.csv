@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,311.0,,True,Network Latency,F1-u interface,"F1-U throughput drop and F1-U latency increase, while F1-C is stable",Inspect transport network for packet loss/jitter on F1-U path; Verify MTU settings and QoS mapping on F1-U interface; Check resource utilization on CU-UP and DU.

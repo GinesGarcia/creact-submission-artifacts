@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,306.0,,True,Network Latency,F1-u interface,"The analysis of the affected interfaces reveals a common point of failure: F1 interface (CU-DU) and E2 interface (RIC-DU), both terminate at the O-DU. Since the degradation is observed on both interfaces, the issue is isolated to the O-DU.",1. Perform a health check on the O-DU hardware and software. 2. Restart O-DU pods/services. 3. Examine O-DU logs for errors. 4. Verify the front-haul connection between the O-DU and the RU.

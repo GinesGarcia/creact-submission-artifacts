@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,A1 interface,The anomaly originated at the A1 interface (connecting the Non-RT RIC to the Near-RT RIC) and propagated downstream to the F1-c interface (connecting the O-CU to the O-DU).,1. Perform a network trace on the A1 interface to identify the source of the latency. 2. Check the resource utilization (CPU/Memory) of the Non-RT RIC and Near-RT RIC. 3. Validate the configuration of the A1 transport network.

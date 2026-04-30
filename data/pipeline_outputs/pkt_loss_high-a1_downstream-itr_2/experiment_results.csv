@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,306.0,,True,Network Latency,A1 interface,Non-RT RIC to Near-RT RIC,High packet loss and retransmission rates

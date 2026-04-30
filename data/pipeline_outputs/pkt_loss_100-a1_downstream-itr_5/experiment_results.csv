@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,A1 interface,"The failure chain shows that packet loss on the A1 interface disrupted communication between the Non-RT RIC and Near-RT RIC, which then propagated downstream to the E2 and F1 interfaces, affecting the O-CU and O-DU components. The analyst used Metric Severity Prioritization and Causal Precedence to isolate the A1 interface as the root cause rather than the symptomatic noise seen on other interfaces.","1. Perform a physical layer check on the A1 interface connectivity between the Non-RT RIC and Near-RT RIC.
+2. Investigate the network transport layer for congestion or faulty switching equipment causing packet drops.
+3. Validate the A1 service configuration and check for any recent policy update deployments that may have triggering a signaling storm."

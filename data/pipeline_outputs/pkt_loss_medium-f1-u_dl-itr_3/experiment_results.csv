@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,309.0,,True,Network Packet Loss,F1-u interface,"The primary candidate for the root cause is `f1_u_packet_loss_dl_percentage` due to its significantly lower anomaly score. Following the 'Metric Severity Prioritization' heuristic, packet loss is considered a 'hard error' that takes precedence over volumetric symptoms like throughput drops or latency increases. Cross-referencing with the causal graph confirmed a direct path from the F-node to the F1-u interface KPIs, and anomalies on other interfaces (F1-c, E2, A1) are interpreted as symptomatic noise.","1. Audit transport network link between O-CU and O-DU for cable faults, port errors, or congestion.
+2. Verify health of User Plane (UP) processing functions in O-CU and O-DU.
+3. Check for MTU mismatches or VLAN misconfigurations on the F1-u path."

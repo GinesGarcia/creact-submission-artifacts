@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,313.0,,True,Network Latency,A1 interface,"The A1 interface shows high-probability anomalies in downlink latency and throughput. As the most upstream point in the O-RAN hierarchy, failure here logically cascades downstream to the Near-RT RIC, E2, O-DU/O-CU, and F1 interfaces.","1. Inspect the network link between the Non-RT RIC and the Near-RT RIC for physical layer errors or congestion.
+2. Validate the A1 interface configuration and ensure that the Non-RT RIC is not experiencing resource exhaustion (CPU/Memory) that would delay packet transmission.
+3. Restart the A1 signaling service on the Non-RT RIC to clear any hung sessions or buffer overflows."

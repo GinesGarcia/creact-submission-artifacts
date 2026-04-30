@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,E2 interface,Prioritized hard error metric `e2_du_packet_loss_ul_percentage` over volumetric metrics due to Metric Severity Prioritization and causal graph analysis confirming it as a parent node to throughput anomalies.,1. Inspect physical/logical connectivity of E2 interface (O-DU to Near-RT RIC). 2. Verify E2 Agent health/configuration in O-DU. 3. Check for transport network congestion/hardware faults on E2 interface.

@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,E2 interface,"High error counts and instability on the E2 interface have propagated to the F1 interface, leading to degraded performance in the O-RAN control plane.",the SCTP connection and signaling configuration between the Near-RT RIC and O-CU should be inspected and restored.

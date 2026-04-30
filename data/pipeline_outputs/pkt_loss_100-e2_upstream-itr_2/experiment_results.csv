@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,E2 interface,"High uplink packet loss on the E2 interface is a hard error that precedes and causes volumetric degradation, affecting O-DU, O-CU, and RICs.",1. Transport Layer Audit: Inspect physical/virtual transport network between O-DU and Near-RT RIC. 2. O-DU Interface Check: Verify E2 agent configuration and hardware health. 3. RIC Connectivity: Validate Near-RT RIC ingress capacity.

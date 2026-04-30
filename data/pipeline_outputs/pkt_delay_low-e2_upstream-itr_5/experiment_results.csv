@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,312.0,,True,Network Latency,E2 interface,"High latency on the E2 interface prevented the Near-RT RIC from exchanging control information and receiving telemetry, hindering closed-loop control functions (RRM).",Investigate the transport network for congestion or misconfiguration and implement stricter QoS policies for E2 traffic.

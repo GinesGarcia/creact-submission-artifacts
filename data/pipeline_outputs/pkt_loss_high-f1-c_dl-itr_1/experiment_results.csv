@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,F1-c interface,"High packet loss on the F1-c control plane interface, which is a hard error, was prioritized over volumetric anomalies on E2 and A1 interfaces. Because F1-c is the critical control plane interface between O-CU and O-DU, its degradation causes symptomatic noise across the rest of the network hierarchy.","1. Inspect physical and virtual links between O-CU and O-DU for F1-c traffic.
+2. Check for MTU mismatches or firewall drops on F1-c interface.
+3. Verify health of O-CU signaling process and O-DU F1-c termination point."

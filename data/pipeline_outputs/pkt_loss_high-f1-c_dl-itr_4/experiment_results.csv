@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Packet Loss,F1-c interface,"The analysis identified f1_c_packet_loss_dl_percentage as the primary root cause indicator due to its low anomaly score. A control plane collapse on the F1-c interface (connecting O-CU and O-DU) logically precedes and triggers failures across other interfaces (F1-u, E2, A1) and components. The widespread nature of the anomaly is consistent with high packet loss on the F1-c interface, leading to synchronization and signaling failures.","1. Perform a physical layer check and link stability analysis on the transport network connecting the O-CU and O-DU.
+2. Inspect O-CU and O-DU logs for F1-C setup/maintenance failures or SCTP association timeouts.
+3. Verify if any recent configuration changes were applied to the control plane traffic shaping or QoS policies on the F1-c interface."

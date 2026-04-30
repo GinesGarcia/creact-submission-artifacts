@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,F1-u interface,"High concentration of anomalies on the F1-u (User Plane) interface, including packet loss and high latency, which led to symptomatic degradation on other interfaces (E2, F1-c).","1. Perform a physical layer check on the transport network connecting the O-CU and O-DU to identify cable faults or hardware failures.
+2. Inspect the transport network for congestion or suboptimal routing causing packet loss and latency.
+3. Verify the MTU settings and interface configurations on both the O-CU and O-DU to ensure consistency and prevent fragmentation."

@@ -1,0 +1,5 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,F1-u interface,"The root cause is significant latency degradation on the F1-U (User Plane) interface, leading to packet loss and throughput degradation. This is confirmed by telemetry showing high latency and a spike in packet loss on the F1-U interface, affecting communication between the CU and DU.","1. Inspect F1-U Transport: Check the transport network for congestion, faulty links, or configuration errors between the CU and DU.
+2. Verify Interface Health: Check for hardware or CRC errors on the physical interfaces of the CU and DU.
+3. Analyze Resource Utilization: Check if CU or DU processing resources (CPU/Memory) are saturated.
+4. Restart Interface/Service: Reset the F1-U interface or the associated user-plane service if necessary."

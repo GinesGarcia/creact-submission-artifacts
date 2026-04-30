@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,F1-u interface,"The failure is isolated to the User Plane, as F1-c (Control Plane) indicators have significantly higher anomaly scores, indicating that the control signaling remains relatively stable while data traffic is compromised.","1. Inspect the physical and logical link stability of the F1-u transport network between the O-CU and O-DU.
+2. Check for congestion or bandwidth saturation on the User Plane transport path.
+3. Validate the MTU settings and VLAN configurations on the F1-u interface to ensure no packet fragmentation is causing the loss and latency."

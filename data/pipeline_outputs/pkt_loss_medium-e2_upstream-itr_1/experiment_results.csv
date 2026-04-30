@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,F1-u interface,"The report identifies severe packet loss on the E2 interface originating from the O-DU, which then propagates to the F1-u interface, causing cascading performance degradation. The O-DU is isolated as the source of failure because it terminates both affected interfaces.","1. Perform a health check on the O-DU's network interface cards (NICs) and physical cabling associated with the E2 and F1-u ports.
+2. Inspect O-DU resource utilization (CPU/Memory) to ensure packet loss is not caused by internal buffer overflows or processing bottlenecks.
+3. Validate the E2AP (E2 Application Protocol) signaling and configuration on the O-DU to ensure there are no software-level mismatches causing on packet drops."

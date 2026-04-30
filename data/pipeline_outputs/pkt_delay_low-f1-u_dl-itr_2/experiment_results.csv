@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Latency,F1-c interface,High packet loss and latency on the F1 interface (midhaul) causing degraded communication between CU and DU.,"Verify physical/logical connectivity, reset F1 interface, and analyze midhaul capacity/QoS settings."

@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,308.0,,True,Network Latency,F1-c interface,"The user is checking for active alarms and analyzing KPI metrics to see which services or components are degraded, indicating a network anomaly is present.",1. Check for active alarms. 2. Analyze KPI metrics.

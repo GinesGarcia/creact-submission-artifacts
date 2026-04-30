@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,E2 interface,"The primary driver of failure is `e2_du_packet_loss_ul_percentage`, which is a hard error metric weighted higher than throughput dips. Causal graph analysis indicates E2 issues propagate to other interfaces (F1-u, F1-c, A1), which are identified as symptomatic noise.",1. Inspect physical and logical links between O-DU and Near-RT RIC. 2. Verify E2AP configuration and QoS policies. 3. Restart the E2 agent on the O-DU.

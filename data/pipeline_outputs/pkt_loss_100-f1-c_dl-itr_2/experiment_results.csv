@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,F1-c interface,High anomaly score for f1_c_packet_loss_dl_percentage and confirmed failure in F1-c control plane causing downstream effects on F1-u and O-CU/O-DU components.,1. Inspect F1-c interface physical and logical links. 2. Review O-CU and O-DU logs for F1-C protocol errors. 3. Verify transport network MTU and QoS configurations.

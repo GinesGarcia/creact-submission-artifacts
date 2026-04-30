@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,A1 interface,"The root cause is severe packet loss and high retransmission rates on the A1 interface, disrupting the communication between the Non-RT RIC and the Near-RT RIC. Metric Severity Prioritization heuristic was used to prioritize severe packet loss on A1 over volumetric symptoms on other interfaces.","1. Inspect the transport network and physical cabling between the Non-RT RIC and Near-RT RIC to identify points of packet loss.
+2. Verify the configuration of the A1 interface endpoints for MTU mismatches or firewall rules causing packet drops.
+3. Analyze the Non-RT RIC logs to ensure policies are being transmitted correctly and are not being dropped by the network."

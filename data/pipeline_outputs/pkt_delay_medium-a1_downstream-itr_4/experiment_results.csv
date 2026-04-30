@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,313.0,,True,Network Latency,A1 interface,"The failure propagated from the A1 interface into the Near-RT RIC, then downstream through the E2 interface to the O-CU and O-DU, and finally affecting the F1-c and F1-u control and user planes.","1. Analyze Near-RT RIC Resources, 2. Verify A1 Policy Processing, 3. Interface Health Check"

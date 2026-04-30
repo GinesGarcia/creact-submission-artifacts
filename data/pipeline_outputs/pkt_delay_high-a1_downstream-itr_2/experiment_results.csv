@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Latency,A1 interface,"The A1 interface shows high latency in both downlink and uplink directions. This latency disrupts policy updates from the Non-RT RIC to the Near-RT RIC, causing a downstream effect on the E2 and F1 interfaces, which leads to overall network performance degradation.","1. Perform a network trace on the A1 interface to identify the source of the latency (e.g., congestion, routing loops, or firewall delays).
+2. Check the CPU and Memory utilization of both the Non-RT RIC and Non-RT RIC to ensure the latency is not caused by processing bottlenecks.
+3. Verify the A1 configuration parameters and ensure that the communication between the Non-RT and Near-RT RICs is optimized for real-time constraints."

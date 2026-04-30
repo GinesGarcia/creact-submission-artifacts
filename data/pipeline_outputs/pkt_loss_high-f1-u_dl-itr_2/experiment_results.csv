@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,F1-u interface,"Spike in packet loss on the F1-U interface impacted user plane traffic between the CU and DU, leading to throughput degradation and latency increase.","Check transport network for congestion or link errors, verify interface statistics for CRC errors or drops, validate MTU and VLAN configurations, and restart/reset the F1-U interface if necessary."

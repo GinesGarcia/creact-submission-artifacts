@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,312.0,,True,Network Packet Loss,A1 interface,"The failure originated at the A1 interface / Non-RT RIC layer, characterized by packet loss and latency issues, which cascaded down to the Near-RT RIC and the O-CU/O-DU. The query_graph_tool confirmed that a1_packet_loss_dl_percentage is a direct cause of the observed latency metrics.",Inspect the Non-RT RIC and the A1 interface for configuration errors or physical link instability.

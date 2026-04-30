@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,309.0,,True,Network Latency,F1-c interface,The report states that 'the root cause is the packet loss/instability on the F1-C interface' and 'the causality check confirms that f1_c_packet_loss or failures in the control plane lead to the degradation of the user plane'.,"Inspect the transport network between the gNB and the AMF/UPF, check for configuration errors or hardware faults on the F1-C interface, and verify the stability of the control plane signaling."

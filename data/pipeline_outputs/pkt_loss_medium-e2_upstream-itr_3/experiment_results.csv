@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,E2 interface,"The root cause ranked list identified 'e2_du_packet_loss_ul_percentage' as the highest priority. Following the Metric Severity Prioritization heuristic, the 'hard error' of packet loss was prioritized over volumetric throughput fluctuations. The E2 interface failure is identified as the origin, with other interface anomalies (F1-c, F1-u, A1) being symptomatic noise caused by the degradation of the RIC-to-DU control loop.","1. Inspect network transport between O-DU and Near-RT RIC for hardware faults or congestion.
+2. Review O-DU logs for transmission errors or buffer overflows on the E2 interface.
+3. Verify that the Near-RT RIC is not dropping packets due to resource exhaustion or ingress policy misconfigurations."

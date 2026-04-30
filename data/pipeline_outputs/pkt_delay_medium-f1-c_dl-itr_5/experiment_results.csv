@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Latency,F1-c interface,"F1-c latency metrics showed the highest rank and score, and causal graph analysis confirmed that only F1-c and F1-u are reachable from the F-node, filtering out noise from A1/E2 interfaces. Control plane failure (F1-c) logically precedes user plane failure (F1-u).","Investigate network path and processing load between O-CU and O-DU, check for signaling congestion or hardware resource exhaustion on the O-CU/O-DU."

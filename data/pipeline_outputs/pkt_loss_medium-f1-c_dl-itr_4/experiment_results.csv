@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Packet Loss,F1-c interface,The failure was isolated to the F1-c interface by prioritizing 'hard error' metrics like packet loss over volumetric fluctuations. Analysis of the graph tool confirmed that only the F1-c related KPI was strictly connected to the F-node.,1. Verify physical connectivity between O-CU and O-DU. 2. Audit F1-c interface configuration for MTU mismatches or timing parameters. 3. Check O-CU for CPU spikes or memory exhaustion.

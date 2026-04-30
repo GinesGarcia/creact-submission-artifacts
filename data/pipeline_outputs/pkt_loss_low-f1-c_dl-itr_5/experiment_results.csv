@@ -1,0 +1,4 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,309.0,,True,Network Packet Loss,F1-c interface,"The investigation identified `f1_c_packet_loss_dl_percentage` as the primary root cause indicator. Although symptoms were observed across F1-u, E2, and A1 interfaces, the graph tool established a causal link where the F1-c anomaly triggered cascading failures. Control plane instability (F1-c) was prioritized over user plane and management plane issues according to the 'Metric Severity Prioritization' heuristic.","1. Inspect F1-c physical and logical links for hardware faults or configuration mismatches.
+2. Check for congestion or MTU mismatches on the control plane transport network.
+3. Restart the F1-c signaling procedure between the O-CU and O-DU to re-establish connectivity."

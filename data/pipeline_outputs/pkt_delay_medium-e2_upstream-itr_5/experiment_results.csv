@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,313.0,,True,Network Latency,E2 interface,"Cascading effect across interfaces: E2 interface anomaly first, followed by F1 and NG interfaces. X2 interface remained stable, indicating a specific control-plane bottleneck rather than general transport failure.","Investigate E2 interface for congestion/packet loss, check Near-RT RIC health (CPU/Memory), and verify E2AP signaling path configuration."

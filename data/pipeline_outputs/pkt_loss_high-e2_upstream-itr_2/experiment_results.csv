@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,307.0,,True,Network Packet Loss,E2 interface,"High uplink packet loss on the E2 interface disrupts the control/optimization loop between O-DU and Near-RT RIC, cascading into other interfaces and components.","Inspect E2 interface connectivity, check for network congestion/hardware faults, and validate E2AP configuration."

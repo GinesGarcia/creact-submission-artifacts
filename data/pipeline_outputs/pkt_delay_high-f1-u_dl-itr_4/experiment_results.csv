@@ -1,0 +1,2 @@
+event_start,event_end,event_sources,anomaly_present,anomaly_type,location,reasoning,actionable_steps
+-10.0,310.0,,True,Network Latency,F1-u interface,"Severe packet loss on the F1-u Downlink interface, causing subsequent latency spikes and throughput collapse.","Perform an immediate audit of the transport network between the O-CU and O-DU. Specifically, check for physical link errors, MTU mismatches, or congestion on the switches handling the F1-u user plane traffic to eliminate the source of the packet loss."
