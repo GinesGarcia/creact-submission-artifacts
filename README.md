@@ -1,4 +1,3 @@
-Manuscript title: C-RE-ACT: Causal RE-ACTing Agent for O-RAN Forensic Triage
 
 Repository Contents
 -------------------
